@@ -1,0 +1,65 @@
+.events{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box{
+    height: 400px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 10%;
+    display: flex;
+    
+}
+.box img{
+    height: 270px;
+    width: 200px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 45px;
+    border-radius: 10px;
+
+}
+.box input{
+    height: 40px;
+    width: 190px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    font-family: cursive;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.info{
+    height: 300px;
+    display: none;
+    color: white;
+    border-left: 3px solid white;
+    padding: 5%;
+    margin-left: 20px;
+    margin-top: 10%;
+}
+.box:hover {
+    width: 550px;
+}
+.box:hover .info{
+    display: block;
+}
+.field{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+}
+.reg{
+    cursor: pointer;
+}
+.rad input{
+    height: 10px;
+    width: 10px;
+    margin-left: 17%;
+}
